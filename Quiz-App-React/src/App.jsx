@@ -61,8 +61,10 @@ function App() {
   return (
     <>
     {showScore ? 
-    (<div className='score'>
+    (<div className='main'>
+      <div className='score'>
       <h3>You got {score} questions right out of {questions.length}</h3>
+    </div>
     </div>)
 
     :(<div className='main-container'>
